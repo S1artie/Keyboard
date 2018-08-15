@@ -28,6 +28,7 @@
 	z-index: 16001;
 }
 .ui-keyboard-button {
+	font-size: 1em;
 	border: 1px solid #aaa;
 	padding: 0 0.5em;
 	margin: 1px;
