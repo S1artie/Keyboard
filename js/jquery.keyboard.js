@@ -2328,7 +2328,7 @@ http://www.opensource.org/licenses/mit-license.php
 				case 'e':
 				case 'enter':
 					base
-						.addKey('enter', action)
+						.addKey((base.settings.enterAccept ? 'accept' : 'enter'), action)
 						.addClass(o.css.buttonAction + ' ' + kbcss.keyAction);
 					break;
 
