@@ -2697,7 +2697,13 @@ http://www.opensource.org/licenses/mit-license.php
 				if (o.tabNavigation) {
 					return base.switchInput(!base.shiftActive, true);
 				} else if (tag === 'INPUT') {
-					// ignore tab key in input
+					if(base.settings.tabToNextInput) {
+						var focusables = $('input,select,textarea');
+						var current = focusables.index($(':focus'));
+		                var next = focusables.eq(current+1).length ? focusables.eq(current+1) : focusables.eq(0);
+		                next.focus();
+					}
+					// ignore tab key in input (do not actually add a tab)
 					return false;
 				}
 			}
