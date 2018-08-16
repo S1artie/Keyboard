@@ -2733,14 +2733,14 @@ http://www.opensource.org/licenses/mit-license.php
 	$keyboard.layouts = {
 		'alpha': {
 			'normal': [
-				'` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+				'` 1 2 3 4 5 6 7 8 9 0 - = {b}',
 				'{tab} a b c d e f g h i j [ ] \\',
 				'k l m n o p q r s ; \' {enter}',
 				'{shift} t u v w x y z , . / {shift}',
 				'{accept} {space} {cancel}'
 			],
 			'shift': [
-				'~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+				'~ ! @ # $ % ^ & * ( ) _ + {b}',
 				'{tab} A B C D E F G H I J { } |',
 				'K L M N O P Q R S : " {enter}',
 				'{shift} T U V W X Y Z < > ? {shift}',
@@ -2749,14 +2749,14 @@ http://www.opensource.org/licenses/mit-license.php
 		},
 		'qwerty': {
 			'normal': [
-				'` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+				'` 1 2 3 4 5 6 7 8 9 0 - = {b}',
 				'{tab} q w e r t y u i o p [ ] \\',
 				'a s d f g h j k l ; \' {enter}',
 				'{shift} z x c v b n m , . / {shift}',
 				'{accept} {space} {cancel}'
 			],
 			'shift': [
-				'~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+				'~ ! @ # $ % ^ & * ( ) _ + {b}',
 				'{tab} Q W E R T Y U I O P { } |',
 				'A S D F G H J K L : " {enter}',
 				'{shift} Z X C V B N M < > ? {shift}',
@@ -2765,28 +2765,28 @@ http://www.opensource.org/licenses/mit-license.php
 		},
 		'international': {
 			'normal': [
-				'` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+				'` 1 2 3 4 5 6 7 8 9 0 - = {b}',
 				'{tab} q w e r t y u i o p [ ] \\',
 				'a s d f g h j k l ; \' {enter}',
 				'{shift} z x c v b n m , . / {shift}',
 				'{accept} {alt} {space} {alt} {cancel}'
 			],
 			'shift': [
-				'~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+				'~ ! @ # $ % ^ & * ( ) _ + {b}',
 				'{tab} Q W E R T Y U I O P { } |',
 				'A S D F G H J K L : " {enter}',
 				'{shift} Z X C V B N M < > ? {shift}',
 				'{accept} {alt} {space} {alt} {cancel}'
 			],
 			'alt': [
-				'~ \u00a1 \u00b2 \u00b3 \u00a4 \u20ac \u00bc \u00bd \u00be \u2018 \u2019 \u00a5 \u00d7 {bksp}',
+				'~ \u00a1 \u00b2 \u00b3 \u00a4 \u20ac \u00bc \u00bd \u00be \u2018 \u2019 \u00a5 \u00d7 {b}',
 				'{tab} \u00e4 \u00e5 \u00e9 \u00ae \u00fe \u00fc \u00fa \u00ed \u00f3 \u00f6 \u00ab \u00bb \u00ac',
 				'\u00e1 \u00df \u00f0 f g h j k \u00f8 \u00b6 \u00b4 {enter}',
 				'{shift} \u00e6 x \u00a9 v b \u00f1 \u00b5 \u00e7 > \u00bf {shift}',
 				'{accept} {alt} {space} {alt} {cancel}'
 			],
 			'alt-shift': [
-				'~ \u00b9 \u00b2 \u00b3 \u00a3 \u20ac \u00bc \u00bd \u00be \u2018 \u2019 \u00a5 \u00f7 {bksp}',
+				'~ \u00b9 \u00b2 \u00b3 \u00a3 \u20ac \u00bc \u00bd \u00be \u2018 \u2019 \u00a5 \u00f7 {b}',
 				'{tab} \u00c4 \u00c5 \u00c9 \u00ae \u00de \u00dc \u00da \u00cd \u00d3 \u00d6 \u00ab \u00bb \u00a6',
 				'\u00c4 \u00a7 \u00d0 F G H J K \u00d8 \u00b0 \u00a8 {enter}',
 				'{shift} \u00c6 X \u00a2 V B \u00d1 \u00b5 \u00c7 . \u00bf {shift}',
@@ -2795,14 +2795,14 @@ http://www.opensource.org/licenses/mit-license.php
 		},
 		'colemak': {
 			'normal': [
-				'` 1 2 3 4 5 6 7 8 9 0 - = {bksp}',
+				'` 1 2 3 4 5 6 7 8 9 0 - = {b}',
 				'{tab} q w f p g j l u y ; [ ] \\',
 				'{bksp} a r s t d h n e i o \' {enter}',
 				'{shift} z x c v b k m , . / {shift}',
 				'{accept} {space} {cancel}'
 			],
 			'shift': [
-				'~ ! @ # $ % ^ & * ( ) _ + {bksp}',
+				'~ ! @ # $ % ^ & * ( ) _ + {b}',
 				'{tab} Q W F P G J L U Y : { } |',
 				'{bksp} A R S T D H N E I O " {enter}',
 				'{shift} Z X C V B K M < > ? {shift}',
@@ -2811,14 +2811,14 @@ http://www.opensource.org/licenses/mit-license.php
 		},
 		'dvorak': {
 			'normal': [
-				'` 1 2 3 4 5 6 7 8 9 0 [ ] {bksp}',
+				'` 1 2 3 4 5 6 7 8 9 0 [ ] {b}',
 				'{tab} \' , . p y f g c r l / = \\',
 				'a o e u i d h t n s - {enter}',
 				'{shift} ; q j k x b m w v z {shift}',
 				'{accept} {space} {cancel}'
 			],
 			'shift': [
-				'~ ! @ # $ % ^ & * ( ) { } {bksp}',
+				'~ ! @ # $ % ^ & * ( ) { } {b}',
 				'{tab} " < > P Y F G C R L ? + |',
 				'A O E U I D H T N S _ {enter}',
 				'{shift} : Q J K X B M W V Z {shift}',
